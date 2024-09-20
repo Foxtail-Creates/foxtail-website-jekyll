@@ -228,16 +228,23 @@ header {
     margin-top: 0;
 }
 
-.service-box {
+.faq-box {
     max-width: 400px;
     margin: 50px auto 0;
-    text-align: left;
     @media (min-width: 992px) {
+        align-content: center;
         margin: 20px auto 0;
     }
     p {
         margin-bottom: 0;
     }
+}
+
+.faq-text {
+    margin-top: 18px;
+    text-align: justify;
+    color: #777;
+    font-size: medium;
 }
 
 .portfolio-box {
