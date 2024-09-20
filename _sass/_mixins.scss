@@ -64,6 +64,10 @@
 // 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 // }
 
+@mixin primary-font() {
+	font-family: 'Lato', Arial, serif;
+}
+
 @mixin secondary-font() {
 	font-family: 'Nunito', Arial, sans-serif;
 }

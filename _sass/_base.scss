@@ -27,7 +27,10 @@ a {
     }
 }
 
-h1,
+h1 {
+    @include primary-font;
+}
+
 h2,
 h3,
 h4,
@@ -70,7 +73,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: #145A4F;
     border-color: rgba($theme-dark, .5);
     @include secondary-font;
     @include transition-all;
@@ -205,21 +208,43 @@ header {
     }
 }
 
+.bouquet-header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/foxtail_header_asset.png');
+    text-align: center;
+    color: white;
+    @media (min-width: 768px) {
+        min-height: 25%;
+    }
+}
+
 // Sections
 
 .section-heading {
     margin-top: 0;
 }
 
-.service-box {
+.faq-box {
     max-width: 400px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
+        align-content: center;
         margin: 20px auto 0;
     }
     p {
         margin-bottom: 0;
     }
+}
+
+.faq-text {
+    margin-top: 18px;
+    text-align: justify;
+    color: #777;
+    font-size: medium;
 }
 
 .portfolio-box {
