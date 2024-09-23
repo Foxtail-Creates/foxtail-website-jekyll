@@ -1,7 +1,7 @@
 # Site settings
-title: Foxtail Company Website
-email: katrinamalee@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+title: Foxtail Website
+email: foxtailcreates@gmail.com
+description: Foxtail creates online tools for custom florals. Our tools simplify the process of ordering personalized flowers.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://foxtailcreates.com/" # the base hostname & protocol for your site
 
