@@ -40,7 +40,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -326,6 +326,10 @@ header {
     @include button-variant(white, $theme-primary, $theme-primary);
 }
 
+.btn-bright {
+    @include button-variant(white, $theme-bright, $theme-bright);
+}
+
 .btn {
     @include secondary-font;
     border: none;
@@ -372,3 +376,6 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+.spacer {
+    height: 20px; /* Adjust as needed */
+}
