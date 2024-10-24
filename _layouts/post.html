@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+
+    {% include nav_light_bg.html %}
+
+    <section id="blog-post" class="blog-post container" style="padding-right:150px; padding-left:150px">
+        <h1>{{ page.title }}</h1>
+        <small>Published on {{ page.date | date: "%B %d, %Y" }}</small>
+
+        <div class="content">
+            {{ content }}
+        </div>
+
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "46270089",
+            formId: "bb54ab39-951b-423d-b141-9182e623c8fa",
+          });
+        </script>
+    </section>
+</body>
+
+</html>
