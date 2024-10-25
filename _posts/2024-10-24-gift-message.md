@@ -3,6 +3,7 @@ layout: post
 title: "Add Gift Notes to Your Shopify Store"
 date: 2024-10-23
 image: "/img/blog/gift-note/gift-note-for-theme.png"
+author: Katrina
 ---
 {% raw  %}
 

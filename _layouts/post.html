@@ -9,6 +9,7 @@
 
     <section id="blog-post" class="blog-post container" style="padding-right:150px; padding-left:150px">
         <h1>{{ page.title }}</h1>
+        <small>By {{ page.author }}</small> <br/>
         <small>Published on {{ page.date | date: "%B %d, %Y" }}</small>
 
         <div class="content">
