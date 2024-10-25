@@ -79,7 +79,7 @@ This will open Google Chrome's Web Inspector. Don’t be intimidated, we’ll go
 3. **On B, get the form ID for the page:** This line begins with `<form …>`. It should have `action=“/cart/add”`. Look to the right and find the attribute `id`. In this case, you can see `id="product-form-template-16090539327572_main"`.  
 
     Okay, great! We have a form ID for the page: `product-form-template-16090539327572_main`. But this is the form ID for only this product, and we need a generic ID that will work for all products with a gift note.
-4. **Look for product-id and section-id (C):** Now go back to A and look below it. You will see two lines that begin with `<input`. One of them will have the name=”product-id” and one will have the name=”section-id”. We’ll call these two lines C.
+4. **Look for product-id and section-id (C):** Now go back to A and look below it. You will see two lines that begin with `<input ...>`. One of them will have `name=”product-id”` and one will have `name=”section-id”`. We’ll call these two lines C.
 5. **On C, check the product-id and section-id:** Look at the “value” fields. See which one matches the end of our form ID for the page. In our example:
     - For product-id, the value is `"7537494655060"`.
     - For section-id, value=`"template-16090539327572_main"`.
