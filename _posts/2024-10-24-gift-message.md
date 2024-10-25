@@ -19,7 +19,7 @@ This has a couple of drawbacks for a flower shop:
 
 - This is not intuitive for the customer. You often need to add extra instructions to tell the customer when and where they can write a gift note.
 - If there are multiple arrangements in an order, there will still only be one cart note.
-- This box is not just used for gift notes but desi45gn preferences and other instructions.
+- This box is not just used for gift notes but also design preferences and other instructions.
 
 In this post, we’ll go over how to add a gift note to individual products to give customers a better experience. By the end of this blog, you'll have something like this on your product pages:
 
