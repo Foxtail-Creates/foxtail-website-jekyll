@@ -82,7 +82,7 @@ This will open Google Chrome's Web Inspector. Don’t be intimidated, we’ll go
 4. **Look for product-id and section-id (C):** Now go back to A and look below it. You will see two lines that begin with `<input ...>`. One of them will have `name=”product-id”` and one will have `name=”section-id”`. We’ll call these two lines C.
 5. **On C, check the product-id and section-id:** Look at the “value” fields. See which one matches the end of our form ID for the page. In our example:
     - For product-id, the value is `"7537494655060"`.
-    - For section-id, value=`"template-16090539327572_main"`.
+    - For section-id, value is`"template-16090539327572_main"`.
     
     Since the section-id is a match, the generic form ID is `product-form-\{\{ section.id \}\}`.
 
