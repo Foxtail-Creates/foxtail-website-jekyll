@@ -71,7 +71,7 @@ Then skip to Step 4. If you're using a different theme, let's find the generic f
 
 In a separate window, open a product page on your website. Right-click on your “Add to Cart” button and select "Inspect".
     ![Inspect Add to Cart button](/img/blog/gift-note/inspect-add-to-cart.png)
-This will open the Web Inspector. Don’t be intimidated, we’ll go over it together. We’re going to look at a couple of elements:
+This will open Google Chrome's Web Inspector. Don’t be intimidated, we’ll go over it together. We’re going to look at a couple of elements:
     ![Investigate HTML](/img/blog/gift-note/investigate-html.png)
 
 1. **Look for the product submit button (A):** You’ll see a line highlighted when it opens. We’ll call this A and use it to orient ourselves.
