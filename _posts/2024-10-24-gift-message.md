@@ -84,7 +84,7 @@ This will open Google Chrome's Web Inspector. Don’t be intimidated, we’ll go
     - For product-id, the value is `"7537494655060"`.
     - For section-id, value is`"template-16090539327572_main"`.
     
-    Since the section-id is a match, the generic form ID is `product-form-\{\{ section.id \}\}`.
+    Since the section-id is a match, the generic form ID is `product-form-{{ section.id }}`.
 
 ### Update the Custom Liquid with the generic form ID.
 Now that we have the form ID, go back to the "Custom Liquid" block you made in Step 2. Update the attribute `form="product-form-{{ section.id }}"` so it looks like this:
