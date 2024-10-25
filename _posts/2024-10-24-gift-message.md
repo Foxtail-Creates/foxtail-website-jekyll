@@ -11,7 +11,7 @@ Add individual gift notes to your products, without using any apps.
 
 ## Order notes vs. individual gift note
 
-By default, a lot of Shopify themes give an option for Order Notes on cart checkout, which will attach a note to the entire order. For example, see the "Order Special Instructions" box here:
+By default, many Shopify themes give an option for Order Notes on cart checkout, which will attach a note to the entire order. For example, see the "Order Special Instructions" box here:
 
 ![Order note example](/img/blog/gift-note/order-notes.png)
 
