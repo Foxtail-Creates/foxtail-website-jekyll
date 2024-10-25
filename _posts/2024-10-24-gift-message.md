@@ -25,7 +25,7 @@ In this post, we’ll go over how to add a gift note to individual products to g
 
 ![Gift note example](/img/blog/gift-note/gift-note-for-theme.png)
 
-It's quite simple and we can do it without any apps. You will need a little code, but we’ll walk you through it. **Note that we are using Google Chrome for our web browser, which is relevant for Step 3.**
+It's quite simple and you can do it without any apps! You will need a little code, but we’ll walk you through it. **Note that we are using Google Chrome for our web browser, which is relevant for Step 3.**
 
 ## Step 1: Find the Product page in your theme editor
 
